@@ -7,7 +7,7 @@ Version adaptée d'un projet open source : un coach financier composé de **troi
 Ce dépôt est basé sur le projet **ai_financial_coach_agent** de Shubham Saboo, issu du dépôt open source [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) (`advanced_ai_agents/multi_agent_apps/ai_financial_coach_agent`).
 
 - Tutoriel d'origine : [Build a Multi-Agent Personal Finance Coach](https://www.theunwindai.com/p/build-a-multi-agent-personal-finance-coach) (Unwind AI, avril 2025).
-- Le code de l'application appartient à ses auteurs. Veuillez consulter la licence du dépôt d'origine.
+- Le code de l'application appartient à ses auteurs. Il est distribué sous licence Apache-2.0 (voir le fichier LICENSE).
 - Mon travail porte sur l'**installation, le dépannage, l'adaptation de la configuration et l'analyse des résultats**, détaillés ci-dessous.
 
 ## Ce que fait l'application
@@ -87,7 +87,7 @@ Un exemple complet est fourni dans `transactions_test.csv` (21 transactions fict
 
 ## Limites observées
 
-- Lors d'un test, les totaux affichés par l'agent semblaient s'écarter de ceux du fichier CSV : les chiffres produits par un modèle doivent être vérifiés. *(À confirmer par des tests plus poussés.)*
+- Lors d'un test (revenu de 8 000), l'agent a affiché un total de dépenses de 3 410,50, alors que la répartition par catégorie du même écran correspondait à environ 5 460 par mois. Les chiffres produits par un modèle doivent être vérifiés.
 - La devise `$` est écrite en dur dans l'interface.
 - Les erreurs de surcharge (503) ne sont pas gérées par des tentatives automatiques.
 
