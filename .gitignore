@@ -1,0 +1,7 @@
+# Cle API : ne jamais publier
+.env
+
+# Environnement virtuel et caches Python
+venv/
+__pycache__/
+*.pyc
