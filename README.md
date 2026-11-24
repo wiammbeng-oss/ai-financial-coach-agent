@@ -87,7 +87,7 @@ Un exemple complet est fourni dans `transactions_test.csv` (21 transactions fict
 
 ## Limites observées
 
-- Lors d'un test (revenu de 8 000), l'agent a affiché un total de dépenses de 3 410,50, alors que la répartition par catégorie du même écran correspondait à environ 5 460 par mois. Les chiffres produits par un modèle doivent être vérifiés.
+- Lors d'un test (revenu de 8 000), l'agent a affiché un total de dépenses de 3 410,50, alors que la répartition par catégorie du même écran correspondait à environ 5 460 par mois (dont 1 000 de paiement de dette), soit environ 4 460 hors dette. Les chiffres produits par un modèle doivent être vérifiés.
 - La devise `$` est écrite en dur dans l'interface.
 - Les erreurs de surcharge (503) ne sont pas gérées par des tentatives automatiques.
 
