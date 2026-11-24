@@ -91,12 +91,7 @@ Un exemple complet est fourni dans `transactions_test.csv` (21 transactions fict
 - La devise `$` est écrite en dur dans l'interface.
 - Les erreurs de surcharge (503) ne sont pas gérées par des tentatives automatiques.
 
-## Pistes d'amélioration (non implémentées)
 
-- Calculer les totaux (dépenses, excédent) **en code Python** plutôt que par le modèle, et ne laisser à l'IA que les recommandations.
-- Placer le nom du modèle dans le fichier `.env` au lieu de le répéter trois fois dans le code.
-- Ajouter des **tentatives automatiques** (retry avec attente croissante) en cas d'erreur 503.
-- Permettre le choix de la devise.
 
 ## Auteure des modifications
 
